@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brigaderia - Doces by Val</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../css/forms/formulario-contato.css">
+    <link rel="stylesheet" href="../css/mapas/mapas.css">
+
+    <link rel="stylesheet" href="../css/rodape/rodape.css">
+    <link rel="stylesheet" href="../css/rodape/direitos.css">
+    <link rel="stylesheet" href="../css/rodape/redes-sociais.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script+Swash+Caps:wght@700&family=Qwitcher+Grypen&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__banner">
+            <img src="../pics/logo-by-val-bg.png" alt="">
+            <h1>Doces by Val</h1>
+        </div>
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+        </div>
+    </header>
+    <main class="container">
+        <h2 class="localizacao__titulo">Nossa localização</h2>
+        <div id="mapas"></div>
+
+        <section class="formulario">
+            <h2>Contate-nos</h2>
+            <p>Envie-nos sua mensagem que em breve entraremos em contato</p>
+            <form id="formulario__contato" action="">
+                <fieldset id="fieldset__contato">
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome..." required>
+                    <input type="tel" name="celular" id="numeroCelular" placeholder="Informe seu celular..." required  minlength="11">
+                    <input type="checkbox" name="whatsapp" id="whatsapp" placeholder="WhatsApp">WhatsApp
+                    <input type="email" name="email" id="email" placeholder="Informe seu email..." required>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                        placeholder="Digite sua mensagem..." required></textarea>
+                </fieldset>
+                <!-- <input id="enviarMensagem" type="submit" value="Enviar mensagem"> -->
+                <button type="submit" id="enviarMensagem">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <section class="rodape__redesSociais">    
+            <div>
+                <h3>Entre em contato</h3>
+                <div>
+                    <img src="../pics/whatsapp.png" alt="">
+                    <a href=" https://api.whatsapp.com/send?phone=5511941941141&text=A Doces by Val agradece seu contato&app_absent=0" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+
+                </div>
+            </div>
+        </section>
+        <section class="rodape__copy">
+            <span>&copy;Elaborado por Fernando Carvalho - Direitos reservados</span>
+        </section>
+    </footer>
+</body>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0k1SkNnAjA2x4J3k-riUCcUjJVej5gvs&callback=initMap&v=weekly">
+
+    </script>
+<script src="../js/mapas.js"></script>
+<script src="../js/contato.js"></script>
+
+</html>

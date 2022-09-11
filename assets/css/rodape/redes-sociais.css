@@ -1,0 +1,30 @@
+.rodape__redesSociais{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin-top: .9rem;
+    background: rgb(255, 255, 255,0.1);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 5%,
+        rgba(255, 255, 255, .45) 45%,
+        rgba(50, 92, 105, 1) 100%
+        );
+    }
+    
+.rodape__redesSociais h3 {
+    padding: 1.2rem 0;
+}
+
+.redes__sociais--link{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.rodape__redesSociais img {
+    padding: 0.65rem;
+    vertical-align: middle;
+    width: 5%;
+}

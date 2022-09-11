@@ -1,0 +1,12 @@
+#mapas {
+    display: flex;
+    height:303px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+#mapas localizacao__titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 12em;
+}

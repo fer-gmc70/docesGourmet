@@ -1,0 +1,13 @@
+.rodape__copy{
+    display: flex;
+    justify-content: center;
+    background: #325c69;
+    height: 5vh;
+    align-items: center;
+    color: aquamarine;
+}
+
+.rodape__copy span{
+    opacity: .35;
+
+}

@@ -1,0 +1,22 @@
+.rodape__fornecedores{
+    padding-bottom: 2em;
+    border-bottom: 1px solid;
+}
+.rodape__fornecedores--titulo{
+    margin: .82rem;
+    font-size: 20pt;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+.rodape__fornecedores--img{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape__fornecedores--img img{
+    width: 6%;
+    padding-top: 2rem;
+}

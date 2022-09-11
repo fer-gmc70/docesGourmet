@@ -1,0 +1,53 @@
+.cabecalho {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        to right, #c90c90, #b36ece, #9fa4ed, #b0cdf3, #e7eef2);
+    z-index: 2;
+}
+
+.cabecalho__banner {
+    padding: 0 1em;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 2em;
+    font-weight: bold;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__banner img{
+    margin-top: .08em;
+    padding: .2em;
+    width: 20%;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+#navbar {
+    display: flex;
+    transition: top 3s;
+    flex-direction: row;
+    text-align: right;
+}
+
+#navbar a {
+    text-transform: capitalize;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+    color: darkslateblue;
+}

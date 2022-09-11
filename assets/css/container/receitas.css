@@ -1,0 +1,139 @@
+.receitas{
+    visibility: hidden;
+    position: relative;
+    margin: 20px auto;
+    padding: 10px 0;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+
+.receitas__descricao {
+    visibility: hidden;
+    font-family: 'Cormorant Upright', serif;
+    font-style: oblique;
+    font-size: 1.2rem;
+}
+
+
+.receitas__doces--lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 5em ;
+    height:50vh;
+    margin: 0 0.2em;
+}
+
+.receitas__doces--lista h2{
+    background: rgba(2, 17, 12,.4);
+    border-radius: 6px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.receitas__doces--tradicional {
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    margin-left: 24em;
+    max-height: 20vw;
+    padding-right: 2em;
+}
+.receitas__doces--tradicional li{
+    text-align: center;
+}
+
+.receitas__doces--tradicional img{
+    border-radius: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    max-height: 20vw;
+    padding: 1% 0px;
+    width: 100%;
+}
+
+.receitas__doces--frutas{
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    margin-left: 24em;
+    max-height: 20vw;
+    padding-right: 2em;
+}
+
+.receitas__doces--frutas li{
+    text-align: center;
+
+}
+
+.receitas__doces--frutas img{
+    border-radius: 190px;
+    margin-top: 3%;
+    max-height: 20em;
+    padding: 1% 0px;
+    width: 100%;
+}
+
+.receitas__doces--gourmet{
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    flex-grow: 2;
+    margin-left: 24em;
+    max-height: 20vw;
+    padding-right: 2em;
+    height: 40vh;
+    align-content: center;
+
+}
+
+.receitas__doces--gourmet li{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.receitas__doces--gourmet img{
+    border-radius: 190px;
+    margin-top: 3%;
+    object-fit: cover;
+    max-height: 20em;
+    padding: 1% 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.salgados{
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    height: 50vh;
+    margin-left: 24em;
+    padding-right: 2em;
+}
+
+.salgados li{
+    text-align: center;
+    
+}
+
+.salgados img{
+    border-radius:90%;
+    display: flex;
+    position: relative;
+    margin-top: 1%;
+    padding: 1% 25%;
+    width: 50%;
+}
